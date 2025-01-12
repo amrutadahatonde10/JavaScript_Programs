@@ -3,4 +3,4 @@ var p = document.querySelector("p");
 
 btn.addEventListener("click",function(){
     p.textContent = "Hello";
-})
+}) 
