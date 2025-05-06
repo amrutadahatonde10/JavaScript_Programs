@@ -6,3 +6,4 @@ const progressBar = document.getElementById('progress-bar');
       const progress = (scrollTop / scrollHeight) * 100;
       progressBar.style.width = progress + '%';
     };
+
