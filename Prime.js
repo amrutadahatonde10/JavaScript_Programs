@@ -7,7 +7,7 @@ if(n < 2){
 
     for(let i = 2; i <= n/2; i++){
         if(n % i === 0){
-            isPrime = false;
+            isPrime = false; 
             break;
         }
     }
@@ -19,5 +19,6 @@ if(n < 2){
         console.log("not a prime number");
     }
 }
+
 
 // check prime number
