@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#page1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: rgb(158, 239, 248);
+    align-items: center;
+    justify-content: center;
+}
+
+#page2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: rgb(127, 228, 154);
+    align-items: center;
+    justify-content: center;
+}
+
+#page3{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: rgb(250, 234, 114);
+    align-items: center;
+    justify-content: center;
+}
+
+#circle{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background: linear-gradient(rgb(255, 126, 152), rgb(190, 11, 47));
+}
